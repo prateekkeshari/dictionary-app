@@ -22,7 +22,7 @@ def define(word):
     else:
         return ("Looks like the word doesn't exist.")
 
-user_word = input("What's the word eh? \n") #take on user input
+user_word = input("What's the word? \n") #take on user input
 output = (define(user_word))
 if isinstance(output, list): #condition to ensure it doesn't loop through regular string outputs
     for item in output: 
