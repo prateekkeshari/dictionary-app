@@ -9,3 +9,7 @@ Optimized for:
 - checking for words like New York or USA which can have different capitalizations
 - Displaying the output in a clean, readable format
 
+What can be better:
+- A way to query the data from a database instead of a json file (because it slows down)
+
+Thank you
