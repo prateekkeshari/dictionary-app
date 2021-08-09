@@ -4,7 +4,7 @@ from difflib import get_close_matches #import for auto suggesting misspelled wor
 dict_file = json.load(open("data.json")) #load the dictionary's json file
 
 def define(word):
-    word = word.lower()  # convert to lowercase
+    word = word.lower()
     if word in dict_file:
         return dict_file[word]
     elif word.title() in dict_file: #checking for words like New York or Berlin
